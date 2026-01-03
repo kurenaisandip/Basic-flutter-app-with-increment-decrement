@@ -95,15 +95,15 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 10), // space between label and row
+            // Counter
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
             // Row for counter and buttons
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                // Counter
-                Text(
-                  '$_counter',
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
                 const SizedBox(
                   width: 20,
                 ), // space between counter and first button
