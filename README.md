@@ -6,7 +6,7 @@
 
 ## 📱 Screenshot
 
-![App Screenshot](lib/assets//appss.png)
+![App Screenshot](lib/assets//fullss.png)
 
 ## 🚀 Getting Started
 
